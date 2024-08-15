@@ -151,7 +151,7 @@ class _TestWebSocketState extends State<TestWebSocket> {
     var texts = textToPlay.split(' ');
     for(int i=0;i<texts.length;i++){
       _log('index=$i,text=[${texts[i]}]');
-      text2audio(texts[i], false);
+      text2audio('${texts[i]} ', false);
     }
     text2audio('', true);
   }
