@@ -7,9 +7,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:just_audio_example/common.dart';
+import 'package:just_audio_example/test_websocket.dart';
 import 'package:rxdart/rxdart.dart';
 
-void main() => runApp(const MyApp());
+void main() => runApp(const TestWebSocket());
 
 class MyApp extends StatefulWidget {
   const MyApp({Key? key}) : super(key: key);
